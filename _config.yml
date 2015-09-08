@@ -4,10 +4,10 @@ title: oy.
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/project-pages"
-url: "http://matin-hub.github.io"
-github_username:  matin-hub
-project_repository: project-pages
+baseurl: "/XRD-WAXS-polymers"
+url: "http://adotsenko3.github.io"
+github_username:  adotsenko3
+project_repository: XRD-WAXS-polymers
 disqus_shortname: project-pages
 
 # Build settings
