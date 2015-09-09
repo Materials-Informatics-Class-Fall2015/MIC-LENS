@@ -2,7 +2,7 @@
 layout:     	post 
 title:      	Introduction
 date:       	2015-09-09 00:33
-author:     	Materials Innovation
+author:     	Andriy Dotsenko, Xinyi Gong
 tags:         
 ---
 
