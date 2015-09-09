@@ -1,17 +1,17 @@
 # Members
 
-- name: Ahmet Cecen
+- name: Andriy Dotsenko
   role: Data Scientist / Material Informatics
-  img: https://avatars1.githubusercontent.com/u/7231251?v=3&s=460
-  github: ahmetcecen
-  gplus: https://plus.google.com/+AhmetCecen-GPlus
-  bio: Ahmet Cecen is currently pursuing a PhD in Computational Science and Engineering at Georgia Institute of Technology.  He earned a bachelor’s degree in Mechanical Engineering at Drexel University. Ahmet has been doing research in the fields of computational materials science and materials informatics for the past 6 years, throughout his undergraduate and graduate studies. His current research focus is on leveraging statistical analysis and machine learning tools to solve big data analytics problems in materials science. 
+  img: 
+  github: adotsenko3
+  gplus: 
+  bio: Andriy Dotsenko is a Ph.D. student in the school of Mechanical Engineering, working with Dr. Suman Das in the Direct Digital Manufacturing Lab (DDML). He has a B.S. in Physics from Stony Brook University and industry experience working at HYPRES, inc. in the area of superconducting electronics. His current research is metal Additive Manufacturing (AM) at the intersection of Mechanical Engineering and Materials Science with the goal of developing a light-weight, high-strength aluminum alloy optimized for AM. A general Combinatorial High Throughput (CHT) alloy synthesis technique for alloy development and discovery is developed as a tool to realize this goal, and can be extended to other alloy systems.
   url: http://ahmetcecen.github.io/
    
 - name: David Brough
   role: Data Scientist / Material Informatics
-  img: https://avatars0.githubusercontent.com/u/4368625?v=3&s=460
+  img: xinyi
   github: davidbrough1
-  bio: David is a PhD student in the School of Computational Science and Engineering at Georgia Institute of Technology. David earned a Master’s degree in experimental condensed matter physics at Brigham Young University where he fabricated and characterized thin-films and carbon nanotubes used in nanostructured high capacity battery electrodes and in X-ray windows. As an undergraduate, David studied theoretical physics and researched the evolution of chaotic systems using neural networks at Westminster College. He is a trainee in the NSF IGERT FLAMEL program, and one of the lead developers on PyMKS materials informatics toolkit.
+  bio: 
   url: http://davidbrough.net 
   
