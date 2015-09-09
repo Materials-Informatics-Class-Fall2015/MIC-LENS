@@ -6,7 +6,7 @@ title: XRD WAXS polymer strain project
 header-img: img/Abhirams WAXs picture.jpg
 
 email: adotsenko3@gatech.edu
-description: "This website is showcasing the research exploring the process-structure relationships of strained polyethylene. Sets of XRD image data along with stress and strain data are analyzed to model structure evolution with respect to strain. Big data methods are applied to derive this relationship in part to satisfy the Materials Informatics Course ME8863 at Georgia Tech."
+description: "This website is showcasing the research exploring the process-structure relationships of strained polyethylene. Sets of XRD image data along with stress and strain data are analyzed to model structure evolution with respect to strain. Big data methods are applied to derive this relationship in part to satisfy the Materials Informatics Course ME8883 at Georgia Tech."
 baseurl: "/XRD-WAXS-polymers"
 url: "http://adotsenko3.github.io"
 github_username:  adotsenko3
