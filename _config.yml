@@ -1,9 +1,12 @@
 # Site settings
 
-title: oy.
-header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+title: XRD WAXS polymer strain project
+#header-img: img/home-bg.jpg
+
+header-img: https://www.flickr.com/photos/73249669@N02/15083269989
+
+email: adotsenko3@gatech.edu
+description: "This website is showcasing the research exploring the process-structure relationships of strained polyethylene. Sets of XRD image data along with stress and strain data are analyzed to model structure evolution with respect to strain. Big data methods are applied to derive this relationship in part to satisfy the Materials Informatics Course ME8863 at Georgia Tech."
 baseurl: "/XRD-WAXS-polymers"
 url: "http://adotsenko3.github.io"
 github_username:  adotsenko3
