@@ -6,15 +6,11 @@ title: LENS-type Additive Manufacturing Process-Structure Linkages
 header-img: img/lens-450-3d-printer-repairing-case.png
 
 email: adotsenko3@gatech.edu
-<<<<<<< HEAD
+
 description: "This website is showcasing the research exploring the process-structure relationships of strained polyethylene. Sets of XRD image data along with stress and strain data are analyzed to model structure evolution with respect to strain. Big data methods are applied to derive this relationship in part to satisfy the Materials Informatics Course ME8883 at Georgia Tech."
 baseurl: "/MIC-XRD-WAXS-polymers"
 url: "http://Materials-Informatics-Class-Fall2015.github.io"
-=======
-description: "This website is showcasing the research seeking the process-structure linkages in a LENS-type additive manufacturing system where layers of metal are deposited onto a substrate. Sets of 3D microstructural data produced by SPPARKS simulations are analyzed with respect to an array of processing parameters. Big data methods are applied to derive this relationship in part to satisfy the Materials Informatics Course ME8883 at Georgia Tech."
-baseurl: "/XRD-WAXS-polymers"
-url: "http://adotsenko3.github.io"
->>>>>>> Project_LENS
+
 github_username:  adotsenko3
 project_repository: MIC-XRD-WAXS-polymers
 disqus_shortname: project-pages
