@@ -5,7 +5,7 @@ date:       	2015-09-24 21:26
 author:     	Andriy Dotsenko
 tags:         introduction
 ---
-Laser Engineered Net Shaping (LENS) is an Additive Manufacturing (AM) technology where powdered material is fed into a laser-induced melt pool and solidified in layers.
+Laser EngineereD Net Shaping (LENS) is an Additive Manufacturing (AM) technology where powdered material is fed into a laser-induced melt pool and solidified in layers.
 ![LENS deposition](/MIC-LENS/img/5CLENS_intro_post.jpeg "LENS deposition schematic")
 
 The schematic shows a stationary deposition nozzle resting above a moving substrate. Using a high power focused laser beam the deposition nozzle creates a melt pool on the substrate surface, and immediately delivers powdered material into the area via a tight dry powder stream. The meltpool forms on the axis of the deposition nozzle, and as the substrate moves the molten regions and the added powder solidify into a deposit.
