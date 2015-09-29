@@ -5,23 +5,18 @@ date:       	2015-09-24 21:26
 author:     	Andriy Dotsenko
 tags:         introduction
 ---
-Laser Engineered Net Shaping (LENs) is an Additive Manufacturing (AM) technology where powdered material is fed into a laser-induced melt pool and solidified in layers.
+Laser Engineered Net Shaping (LENs) is an Additive Manufacturing (AM) technology where powdered material is fed into a laser-induced melt pool and solidified in layers. Metal/alloy LENS processing is explored in this project.
 ![LENS deposition](/MIC-LENS/img/LENS_intro_post/LENS schematic.jpeg "LENS deposition schematic")
 
 The schematic shows a stationary deposition nozzle resting above a moving substrate. Using a high power focused laser beam the deposition nozzle creates a melt pool on the substrate surface, and immediately delivers powdered material into the area via a tight dry powder stream. The meltpool forms on the axis of the deposition nozzle, and as the substrate moves the molten regions and the added powder solidify into a deposit.
 
-Metal/alloy LENS processing is explored in this project.
-
-The process is versatile due to a unique set of capabilitues including 
-full density deposit, multi-material and functionally graded parts, large working areas, and curved surfaces.
-
-The ability to make full density deposit yields LENS insudtrial applications in aerospace, power transmission, heavy industry, etc. where large, sometimes oddly shaped irreplaceaple parts are to be repaired or built. 
+The process is versatile and industry-friendly due to a unique set of capabilitues including full density deposit, multi-material and functionally graded part manufacturing, large working areas, and curved surface processing. Harnessing this capability LENS processing can be used to do freeform fabrication as well as component repair, lending it applications in aerospace, power transmission, heavy industry, etc. where large, sometimes oddly shaped irreplaceaple parts are to be repaired or built. 
 
 The LENS process deposit has a distinct microstructure that is different from the substrate.
 
-![enter image description here](/MIC-LENS/img/LENS_intro_post/EBST_1.png)
+![enter image description here](/MIC-LENS/img/LENS_intro_post/EBSD_1.png)
 
-![enter image description here](/MIC-LENS/img/LENS_intro_post/EBST_2.png)
+![enter image description here](/MIC-LENS/img/LENS_intro_post/EBSD_2.png)
 
 
 ## References ##
