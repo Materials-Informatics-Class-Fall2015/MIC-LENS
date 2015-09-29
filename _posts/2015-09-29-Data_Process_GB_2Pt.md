@@ -16,7 +16,7 @@ The data as received consists of a single column of integers corresponding to gr
 ![structure slice](/MIC-LENS/img/GB_post/slice_20_full.jpg)
 **Fig.2.** Slice #20 of structure shown in **Fig.1**.
 
-The grain IDs range from 1 to 250,000 however regardless of the grain ID we select only 2 states: the grain and the grain boundary. The 300x300x200 ID array is processed with a grain boundary generation script to create a two color 3D structure. Slice #20 is displayed in **Fig.3**.
+The grain IDs range from 1 to 250,000 however regardless of the grain ID we select only 2 states: the grain and the grain boundary. The 300x300x200 ID array is processed with a grain boundary generation script to create a two color 3D structure. The processed slice #20 is displayed in **Fig.3**.
 ![grain boundaries](/MIC-LENS/img/GB_post/slice_20_GB.jpg)
 **Fig.3.** Two-state structure created by the grain boundary generation script.
 
