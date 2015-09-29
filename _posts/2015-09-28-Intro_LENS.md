@@ -19,9 +19,9 @@ The ability to make full density deposit yields LENS insudtrial applications in 
 
 The LENS process deposit has a distinct microstructure that is different from the substrate.
 
-![enter image description here](img%5CLENS_intro_post%5CEBSD_1.png)
+![enter image description here](/MIC-LENS/img/LENS_intro_post/EBST_1.png)
 
-![enter image description here](img%5CLENS_intro_post%5CEBSD_2.png)
+![enter image description here](/MIC-LENS/img/LENS_intro_post/EBST_2.png)
 
 
 ## References ##
