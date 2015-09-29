@@ -23,9 +23,19 @@ The image shows a large disparity between grain sizes as well as regions of more
 ![enter image description here](/MIC-LENS/img/LENS_intro_post/EBSD_2.png)
 **Fig.3.** EBSD plot of LENS microstructure in plane of meltpool propagation.
 
-The microstructure features such as relative grain size, directionality, and orientation are to be studied in this work. 
+This project draws its data from simulation of the LENS-type process which generated 3D micristructures as a function of an array of processing parameters **Fig.4**. From these the microstructure features such as relative grain size, directionality, and orientation are to be studied. The similarities and differences between the simulated data setes and the experimental EBSD plots can also be investigated in this work.
+
+![SPPARKS simulated structure](/MIC-LENS/img/LENS_intro_post/SPPARKS_structure.png)
+**Fig.4.** SPPARKS simulated microstructure resulting from LENS-type processing.
+
+
+
+
 ## References ##
-[1]http://www.intechopen.com/books/titanium-alloys-towards-achieving-enhanced-properties-for-diversified-applications/numerical-modeling-of-the-additive-manufacturing-am-processes-of-titanium-alloys
+[1]http://www.intechopen.com/books/titanium-alloys-towards-achieving-enhanced-properties-for-diversified-pplications/numerical-modeling-of-the-additive-manufacturing-am-processes-of-titanium-alloys
+
 [2] http://www.lpwtechnology.com/technical-information/laser-metal-deposition/
+
 [3]http://www.3ders.org/articles/20130612-optomec-launches-new-3d-printer-for-metal-additive-manufacturing.html
+
 [4]”AM-MicrostructureWIthParameterVariationCompressed” T. Rodgers Sept. 14th 2015
