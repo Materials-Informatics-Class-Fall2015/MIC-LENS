@@ -13,7 +13,7 @@ The schematic shows a stationary deposition nozzle resting above a moving substr
 
 The process is versatile and industry-friendly due to a unique set of capabilities including full density deposit, multi-material and functionally graded part fabrication, large (meter scale) working areas, and curved surface processing. Harnessing these capabilities to deposit steels, titanium alloys, and superalloys LENS processing can be used for freeform fabrication as well as component repair lending it applications in aerospace, power transmission, heavy industry, etc. 
 
-The LENS deposit has a microstructure that is distinct from the substrate. Figure 2 shows an experimental EBSD plot of the deposit microstructure as a representative image.
+The LENS deposit has a microstructure that is distinct from the substrate. **Fig.2** shows an experimental EBSD plot of the deposit microstructure as a representative image.
 
 ![enter image description here](/MIC-LENS/img/LENS_intro_post/EBSD_1.png)
 **Fig.2.** EBSD plot of LENS microstructure out of plane of meltpool propagation.
