@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	PCA Approach
-date:       	2015-01-01 12:00
+date:       	2015-09-30 21:28
 author:     	Andriy Dotsenko
 tags:         
 ---
