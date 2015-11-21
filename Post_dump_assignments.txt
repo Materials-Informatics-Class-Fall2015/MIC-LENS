@@ -1,0 +1,27 @@
+Post Assignment:
+
+1. 1799, 2pt, PCA
+2. chord length:
+     gather fraction that we throw away as histogram
+     find old code which count in the edge
+
+3. posts:
+     a.original workflow(Xinyi)
+     b.data cleaning (file traveling/trouble shooting)(Xinyi)
+     c.original PCA (6) (Andriy)
+     d.file trouble(Andriy)
+     e.PACE test(Andriy)
+     f.chord length: 1.grain size;2. anisotropy
+          original(count edge) 1st kind of chord length(Xinyi)
+     g.chord length: v2(not count edge) 1st kind of chord length
+                              detail description of GB function(Xinyi)
+     h. 2nd chord length distribution: meaning of it
+                                                         result: strange, something wrong if don’t count edge—> possible solutions (Andriy)
+     i. theron: a. process parameter pseudo-correlation(1.simulation not good enough:a.parameter correlation;b. input-output 2.missing features: porosity)
+                    b. periodic/non-periodic
+                    c. missing sets
+                    d. origin of artifact files in folder tree(Andriy)
+     j. 72 structure 2pt PCA: variance v.s. PC; visualization 1
+                                             polyfit modelling; furture plan: visual 2(Xinyi)
+     k. 72 str 2pt PCA: visualization 2; plan: visualization planning(Xinyi)
+     l. 1799,2pt,PCA (Andriy)
