@@ -20,7 +20,7 @@ The grain IDs range from 1 to 250,000 however regardless of the grain ID we sele
 ![grain boundaries](/MIC-LENS/img/GB_post/slice_20_GB.jpg)
 **Fig.3.** Two-state structure created by the grain boundary generation script.
 
-The data is now fully ready for spacial 2-point statistics. A script utilizing CorrMaster libraries [1] is employed to create a 300x300x200 array of reciprocal-space information. The plot of silice #20 is displayed in **Fig.4.**
+The data is now fully ready for spacial 2-point statistics. A script utilizing CorrMaster libraries [1] is employed to create a 199x199x199 array of grain boundary auto-correlation information. The plot of silice #20 is displayed in **Fig.4.**
 ![grain boundaries](/MIC-LENS/img/GB_post/slice_20_st.jpg)
 **Fig.4.** Two-state structure created by the grain boundary generation script.
 
