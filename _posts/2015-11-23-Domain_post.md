@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      	Meeting wih Sandia National Labs Domain Expert
+title:      	Meeting with Sandia National Labs Domain Expert
 date:       	2015-10-27 00:09
 author:     	Andriy Dotsenko
 tags:         
