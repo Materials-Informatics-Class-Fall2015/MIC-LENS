@@ -7,6 +7,7 @@ tags:
 ---
 
 The organization and folder architecture of the SPPARKS data poses a small challenge to automated data processing. There are 2160 microstructures with identical or similar names. The process parameter combination associated with a particular microstructure is derived by observing the unique folder path of the data as illustrated below.
+
 ![enter image description here](/MIC-LENS/img/Data Structure Post/data_tree.png)
 **Fig.1.** Data folder architecture.
 
