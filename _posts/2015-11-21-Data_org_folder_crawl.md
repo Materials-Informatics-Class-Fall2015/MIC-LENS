@@ -20,11 +20,11 @@ T20-X-V10-W60-D100-L50-HAZ20
 
 A significantly more difficult challenge proved to be navigating around the exceptions and anomalies in the structure scattered throughout the folder tree. Some parameter combinations were found to be missing from the data set, while other accessible files had miscellaneous other problems. A concise summary of the documented anomalies is as follows: 
 
-1)Missing parameter combinations
-2)Miscellaneous files with unknown extensions of unkown purpose
-3)Corrupted files
-4)Missing structure files
-5)Unpredictable variations in name
+ 1. Missing parameter combinations
+ 2. Miscellaneous files with unknown extensions of unkown purpose
+ 3. Corrupted files  
+ 4. Missing structure files 
+ 5. Unpredictable variations in name 
 
 Over all 1799 microstructures were successfully gathered. A meeting with the domain expert from Sandia National Labs is scheduled to determine if this is a reasonable number compared to the original estimate of 2160 microstructures. The set of 1799 is stored in one folder in .mat format with unique numerical names (1.mat-1799.mat). The .mat file holds the metadata parameter information and an already segmented brain boundary data arrays 300x300x200.
  
