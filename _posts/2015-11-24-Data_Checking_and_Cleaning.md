@@ -1,7 +1,7 @@
 ---
 layout:     	post
 title:      	Data Checking and Cleaning
-date:       	2015-10-27 12:00
+date:       	2015-10-20 12:00
 author:     Xinyi Gong
 ---
 
