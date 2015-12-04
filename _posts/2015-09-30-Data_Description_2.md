@@ -13,7 +13,7 @@ How big is the data?
 
 Each data set we have includes an input file which gives information about every parameter used to simulate this specific process and an output file which contains spin (or grain id) data of the final microstructure. Every microstructure is represented by a 300 by 300 by 200 cuboid which means 18,000,000 voxels per microstructure (process).
 
-![figure1 microstructure](https://www.flickr.com/photos/133265793@N04/21815001906/in/datetaken/)
+<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/133265793@N04/21815001906/in/datetaken/" title="microstructure"><img src="https://farm6.staticflickr.com/5721/21815001906_bc6996483f_o.png" width="1257" height="776" alt="microstructure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 Upon that, since every microstructure correspond to a set of unique process parameters, every change of each parameter would lead to a new set of data.
@@ -47,10 +47,10 @@ Because we have over two thousand different combinations, the first thing we do 
 The effort we gave to structuring the folders will also benefit us for doing further operations (digital representation and dimensionality reduction) efficiently.
 
 Due to the large amount of data, all the files are packed and double packed to .gz files. Thanks to Ahmet, we are able to create a batch file (.bat) to unpack all our data recursively, so that we don’t have to click all week just to unpack the data. The output data from SPPARKS can not be directly used to visualize the microstructure and we also find a huge amount of redundancy in the data provided. With Eva’s help, we converted the original files to .vti files which can be read directly in ParaView and the size of data drop from about 480MB to 180MB.
+<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/133265793@N04/21815001936/in/datetaken/" title="Screen Shot 2015-09-30 at 9.00.29 AM"><img src="https://farm1.staticflickr.com/577/21815001936_e3fa89c5f8_o.png" width="183" height="388" alt="Screen Shot 2015-09-30 at 9.00.29 AM"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
-![figure3 SPPARKS output](https://www.flickr.com/photos/133265793@N04/21815001936/in/datetaken/)
 
-![figure4 .vti file](https://www.flickr.com/photos/133265793@N04/21850734141/in/datetaken/)
+<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/133265793@N04/21850734141/in/datetaken/" title="Screen Shot 2015-09-30 at 12.32.13 PM"><img src="https://farm6.staticflickr.com/5727/21850734141_51ed39302c_o.png" width="598" height="383" alt="Screen Shot 2015-09-30 at 12.32.13 PM"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 As mentioned in previous post, the experimental EBSD map from LENS manufactured material shows resemblance to the simulated data of some extent. However, I can not quantify this resemblance until we do further statistics on both images. So one of our next step will also include statistical comparison of these two kinds of data.
 
