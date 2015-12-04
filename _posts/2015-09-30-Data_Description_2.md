@@ -41,7 +41,7 @@ There are 7 different parameters in the process and each variables are listed ab
 Data classification (metadata) and extraction
 
 Because we have over two thousand different combinations, the first thing we do after downloading the data is to classify all our data into systematically named folds. After some cleaning up, we have our dataset structured like this:
-<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/133265793@N04/21841139005/in/datetaken/" title="Screen Shot 2015-09-30 at 12.25.12 PM"><img src="https://farm1.staticflickr.com/612/21841139005_88f78b6f0e_c.jpg" width="800" height="302" alt="Screen Shot 2015-09-30 at 12.25.12 PM"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/133265793@N04/21841139005/in/datetaken/" title="Screen Shot 2015-09-30 at 12.25.12 PM"><img src="https://farm1.staticflickr.com/612/21841139005_88f78b6f0e_c.jpg" width="800" height="302" alt="Screen Shot 2015-09-30 at 12.25.12 PM"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 The effort we gave to structuring the folders will also benefit us for doing further operations (digital representation and dimensionality reduction) efficiently.
