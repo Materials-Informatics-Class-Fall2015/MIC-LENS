@@ -13,7 +13,7 @@ How big is the data?
 
 Each data set we have includes an input file which gives information about every parameter used to simulate this specific process and an output file which contains spin (or grain id) data of the final microstructure. Every microstructure is represented by a 300 by 300 by 200 cuboid which means 18,000,000 voxels per microstructure (process).
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/133265793@N04/21815001906/in/dateposted-public/" title="microstructure"><img src="https://farm6.staticflickr.com/5721/21815001906_8c887e7a27_c.jpg" width="800" height="494" alt="microstructure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/133265793@N04/21815001906/in/dateposted-public/" title="microstructure"><img src="https://farm6.staticflickr.com/5721/21815001906_8c887e7a27_z.jpg" width="640" height="395" alt="microstructure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 Upon that, since every microstructure correspond to a set of unique process parameters, every change of each parameter would lead to a new set of data.
