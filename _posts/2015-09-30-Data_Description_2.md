@@ -13,7 +13,7 @@ How big is the data?
 
 Each data set we have includes an input file which gives information about every parameter used to simulate this specific process and an output file which contains spin (or grain id) data of the final microstructure. Every microstructure is represented by a 300 by 300 by 200 cuboid which means 18,000,000 voxels per microstructure (process).
 
-<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/133265793@N04/21815001906/in/datetaken/" title="microstructure"><img src="https://farm6.staticflickr.com/5721/21815001906_bc6996483f_o.png" width="1257" height="776" alt="microstructure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/133265793@N04/21815001906/in/datetaken/" title="microstructure"><img src="https://farm6.staticflickr.com/5721/21815001906_8c887e7a27_c.jpg" width="800" height="494" alt="microstructure"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 Upon that, since every microstructure correspond to a set of unique process parameters, every change of each parameter would lead to a new set of data.
@@ -41,8 +41,7 @@ There are 7 different parameters in the process and each variables are listed ab
 Data classification (metadata) and extraction
 
 Because we have over two thousand different combinations, the first thing we do after downloading the data is to classify all our data into systematically named folds. After some cleaning up, we have our dataset structured like this:
-
-![figure2 data structure](https://www.flickr.com/photos/133265793@N04/21841139005/in/datetaken/)
+<a data-flickr-embed="true" data-context="true"  href="https://www.flickr.com/photos/133265793@N04/21841139005/in/datetaken/" title="Screen Shot 2015-09-30 at 12.25.12 PM"><img src="https://farm1.staticflickr.com/612/21841139005_88f78b6f0e_c.jpg" width="800" height="302" alt="Screen Shot 2015-09-30 at 12.25.12 PM"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 The effort we gave to structuring the folders will also benefit us for doing further operations (digital representation and dimensionality reduction) efficiently.
 
