@@ -55,7 +55,7 @@ More detail can be found [here](http://materials-informatics-class-fall2015.gith
 
 Pic of New workflow AND description, reason
 
-![Workflow](/MIC-LENS/img/Final Post/Latest_Workflow.tif)
+![Workflow](/MIC-LENS/img/Final Post/Latest_Workflow.png)
 **Fig.1.** Workflow
 
 
