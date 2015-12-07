@@ -1,6 +1,6 @@
 ---
 layout:     	post
-title:      Final_Test
+title:      Process-Structure Linkages in Simulated LENS-type Additive Manufacturing Microstructures: Final Post
 date:       2015-12-07 18:30
 author:     	Materials Innovation
 tags:         result
@@ -45,7 +45,6 @@ The dataset represents 1799 unique 3D digital microstructures created by SPPARKS
 (HAZ)Heat-affected-zone width (sites)	10, 20, 36
 (T)Heat-affected-zone tail length (sites)	5, 20, 35
 
-((Image of the Structure))
 ![SPPARKS simulated structure](/MIC-LENS/img/GB_post/Full_structure.png)
 **Fig.1.** SPPARKS simulated microstructure for inputs: T=20, X, V=2.5, W=60, D=100, L=50, HAZ=5
 
@@ -57,6 +56,8 @@ More detail can be found [here](http://materials-informatics-class-fall2015.gith
 Pic of New workflow AND description, reason
 
 ![Workflow](/MIC-LENS/img/Final Post/Latest_Workflow.tif)
+**Fig.1.** Workflow
+![Workflow](/MIC-LENS/img/Final Post/Latest_Workflow.png)
 **Fig.1.** Workflow
 
 continue with the developments of the project...
