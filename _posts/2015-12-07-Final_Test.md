@@ -57,8 +57,7 @@ Pic of New workflow AND description, reason
 
 ![Workflow](/MIC-LENS/img/Final Post/Latest_Workflow.tif)
 **Fig.1.** Workflow
-![Workflow](/MIC-LENS/img/Final Post/Latest_Workflow.png)
-**Fig.1.** Workflow
+
 
 continue with the developments of the project...
 
