@@ -71,15 +71,14 @@ The separation of structures with respect to process parameters is immediately e
 
 The V and W parameter-microstructure correlation is displayed as an example but other parameters also display correlation. 
 
-Modeling the linkages for the entire dataset
-Model
+
+Modeling the linkages for the entire dataset:
+inverse forward 
 
 Outliers: 
-
-
+[discuss the CLD2 thresholding scheme and need for thresholding]
   ![CLD PCA Outliers](/MIC-LENS/img/Final_Post/Outliers.png)
 **Fig.1.** Outliers in the CLD PCA space
-
 Model without outliers
 
 
