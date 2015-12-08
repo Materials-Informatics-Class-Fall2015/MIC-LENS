@@ -1,11 +1,10 @@
 ---
-layout: post
-title: Process-Structure Linkages in Simulated LENS-type Additive Manufacturing Microstructures Final Post
-date:  2015-12-01 18:30
-author: Andriy Dotsenko, Xinyi Gong
-tags: result
+layout:     	post
+title:      Process-Structure Linkages in Simulated LENS-type Additive Manufacturing Microstructures: Final Post
+date:       2015-12-01 18:30
+author:     	Andriy Dotsenko, Xinyi Gong
+tags:         result
 ---
-
 ::::Work in Progress::::
 ----------------
 
@@ -23,7 +22,7 @@ The objective of this project was to extract Process-Structure linkages from the
 
 Approach/Workflow:
 ------------------
-The dataset represents 1799 unique 3D digital microstructures created by SPPARKS monte carlo simulations. Each structure occupies a 300x300x200 unit volume and is associated with a unique set of processing parameters listed below:
+As received, the dataset represents 1799 unique 3D digital microstructures created by SPPARKS monte carlo simulations. Each structure occupies a 300x300x200 unit volume and is associated with a unique set of processing parameters listed below:
 
  1. (X/XY)Scan Pattern	Linear and layer-by-layer cross-hatch
  2. (W)Melt spot width
