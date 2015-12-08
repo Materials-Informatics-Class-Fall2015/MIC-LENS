@@ -64,10 +64,29 @@ The CLD statistics were more appropriate to the structure information we wish to
 ![CLD PCA](/MIC-LENS/img/Final_Post/CLD_PCA_and_Var.png)
 **Fig.1.** The CLD variance in PC space and corresponding accumulated variance plot
 
-The separation of structures with respect to process parameters is immediately evident by visual inspection. The same plot is plotted and color coded for different V parameter values.
+The separation of structures with respect to process parameters is immediately evident by visual inspection. The plot is color coded for different parameter values of V and W below.
 
   ![CLD PCA](/MIC-LENS/img/Final_Post/CLD_PCA_Vprm.png)
-**Fig.1.** The CLD variance in PC space and corresponding accumulated variance plot
+**Fig.1.** Color coded structures show visual separation in PC space (2 views shown) as a function of V
+
+
+  ![CLD PCA](/MIC-LENS/img/Final_Post/CLD_PCA_Wprm.png)
+**Fig.1.** Color coded structures show visual separation in PC space (2 views shown) as a function of W
+
+The V and W parameter-microstructure correlation is displayed as an example but other parameters also display correlation. 
+
+Modeling the linkages for the entire dataset
+Model
+
+Outliers: 
+
+
+  ![CLD PCA Outliers](/MIC-LENS/img/Final_Post/Outliers.png)
+**Fig.1.** Outliers in the CLD PCA space
+
+Model without outliers
+
+
 
 Conclusions:
 ------------
