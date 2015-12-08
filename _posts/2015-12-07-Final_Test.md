@@ -59,14 +59,15 @@ In the Digital Representation step the data is processed and transformed into a 
 
 Results:
 --------
-The 2-point statistics showed promising results during preliminary tests. A subset of 72 structures was selected and PCA showed reasonable separation of microstructures as shown below.
+The CLD statistics were more appropriate to the structure information we wish to quantify. The 1799 structures are plotted below in PC space, along with an accumulated variance plot. 
 
-![72 structure PCA](/MIC-LENS/img/Final_Post/72_2pt_PCA.png)
-**Fig.1.** On the left, the PCs -1,-2, and -3 of a 72 structure subset showing separation. An accumulated variance plot is shown on the right. 
+![CLD PCA](/MIC-LENS/img/Final_Post/CLD_PCA_and_Var.png)
+**Fig.1.** The CLD variance in PC space and corresponding accumulated variance plot
 
-Though the method seems to show promise it became impossible to carry out using our limited computational power. The PCA computations of the entire set required over 200GB of RAM while the most powerful nodes at our disposal were 128GB. Because we could not justify reducing the dataset to a computable subset we decided to pursue the non-memory-intensive CLD PCA while searching for a more powerful computing node for 2-pt statistics PCA.
+The separation of structures with respect to process parameters is immediately evident by visual inspection. The same plot is plotted and color coded for different V parameter values.
 
-Chord Length Distributions
+  ![CLD PCA](/MIC-LENS/img/Final_Post/CLD_PCA_Vprm.png)
+**Fig.1.** The CLD variance in PC space and corresponding accumulated variance plot
 
 Conclusions:
 ------------
@@ -75,7 +76,12 @@ summary
 
 Future Work:
 ------------
-stuff
+Future work may include the 2pt statistics PCA. The 2-point statistics showed promising results during preliminary tests. A subset of 72 structures was selected and PCA showed reasonable separation of microstructures as shown below.
+
+![72 structure PCA](/MIC-LENS/img/Final_Post/72_2pt_PCA.png)
+**Fig.1.** On the left, the PCs -1,-2, and -3 of a 72 structure subset showing separation. An accumulated variance plot is shown on the right. 
+
+Though the method seems to show promise it became impossible to carry out using our limited computational power. The PCA computations of the entire set required over 200GB of RAM while the most powerful nodes at our disposal were 128GB. Because we could not justify reducing the dataset to a computable subset we decided to pursue the non-memory-intensive CLD PCA while searching for a more powerful computing node for 2-pt statistics PCA.
 
 Acknowledgements/References:
 ----------------------------
