@@ -22,7 +22,7 @@ The objective of this project was to extract Process-Structure linkages from the
 
 Approach/Workflow:
 ------------------
-As received, the dataset represents 1799 unique 3D digital microstructures created by SPPARKS monte carlo simulations. Each structure occupies a 300x300x200 unit volume and is associated with a unique set of processing parameters listed below:
+The dataset represents 1799 unique 3D digital microstructures created by SPPARKS monte carlo simulations. Each structure occupies a 300x300x200 unit volume and is associated with a unique set of processing parameters listed below:
 
  1. (X/XY)Scan Pattern	Linear and layer-by-layer cross-hatch
  2. (W)Melt spot width
@@ -37,7 +37,7 @@ The 1799 unique microstructures have a variety of grain size and shape distribut
 ![SPPARKS simulated structure](/MIC-LENS/img/GB_post/Full_structure.png)
 **Fig.1.** Example microstructure with parameter combination: T=20, X, V=2.5, W=60, D=100, L=50, HAZ=5
 
-The data was organized in a folder tree, each branch of which defined a microstructure with a unique parameter combination. A code was written to navigate these branches, access the microstructure, and collect metadata (the process parameter combinations). A detailed explanation [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/10/11/Data_org_folder_crawl/).
+As received, the data in the dataset was organized in a folder tree, each branch of which defined a microstructure with a unique parameter combination. A code was written to navigate these branches, access the microstructure, and collect metadata (the process parameter combinations). A detailed explanation [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/10/11/Data_org_folder_crawl/).
 
 The journey to extract the Process-Structure linkage is summarized in the worklfow diagram below:
 
