@@ -8,20 +8,24 @@ tags:         result
 ::::Work in Progress::::
 ----------------
 
-Intro/Bacground
----------------
+Introduction and Bacground
+==========================
+
 The LENS additive manufacturing process creates fully-dense alloy components with process-dependent microstructure. In this project we investigate the morphology of the microstructure crystal grains and it's dependence on process parameters using a Materials Knowledge Systems (MKS) approach. A simulated dataset shared with us through Harvard's Dataverse was subjected to the MKS approach. The dataset's creator Theron Rogers of Sandia National Labs has been our collaborator and domain expert, guiding the direction of the project. More detail can be found [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/09/24/Intro_LENS/).
 
-Motivation:
------------
+Motivation
+===========
+
 The project is an effort to understand LENS fabricated materials as a function of LENS process parameters. The LENS process has a partial control over the physical properties. It creates metal/alloy deposits with a tightly controlled chemistry but not microstructure which also plays a large part in the material's mechanical properties. The Process-Structure linkage is a way to understand the LENS leverage over deposit microstructure. It is also the first step to a Process-Structure-Property linkage which allows rapid material engineering and discovery.  
 
-Objective:
-----------
+Objective
+==========
+
 The objective of this project was to extract Process-Structure linkages from the simulated dataset. The grain size- and shape-distribution was specified as an important structure metric. The general direction of the project became extraction of grain patterns with respect to simulation process parameters. Given a parameter combination and a microstructure the forward and inverse linkages were extracted.
 
-Approach/Workflow:
-------------------
+Approach and Workflow
+======================
+
 The dataset represents 1799 unique 3D digital microstructures created by SPPARKS monte carlo simulations. Each structure occupies a 300x300x200 unit volume and is associated with a unique set of processing parameters listed below:
 
  1. (X/XY)Scan Pattern	Linear and layer-by-layer cross-hatch
@@ -53,9 +57,15 @@ The Process-Structure linkages are formulated to answer either of two questions:
 
  The linkages are extracted by using linear polynomial regression.
 
-Results:
---------
-The CLD statistics were more appropriate to the structure information we wish to quantify. The 1799 structures are plotted below in PC space, along with an accumulated variance plot. 
+Results
+========
+
+The CLD statistics were more appropriate to the structure information we wished to quantify. The results of PCA on CLD sets of the entire dataset are presented below.
+
+Data Visualization in PC Space
+------------------------------
+
+The 1799 structures are plotted below in PC space, along with an accumulated variance plot. 
 
 ![CLD PCA](/MIC-LENS/img/Final_Post/CLD_PCA_and_Var.png)
 **Fig.1.** The CLD variance in PC space and corresponding accumulated variance plot
@@ -71,9 +81,16 @@ The separation of structures with respect to process parameters is immediately e
 
 The V and W parameter-microstructure correlation is displayed as an example but other parameters also display correlation. 
 
+Modeling with Polynomial Regression
+-----------------------------------
 
 Modeling the linkages for the entire dataset:
-inverse forward 
+Forward method was used to create a model of microstructures a function of the process parameters. Low order polynomial models were used. 
+
+![CLD PCA](/MIC-LENS/img/Final_Post/Forward_PC1_model_full.png)
+**Fig.1.** Forward model for PC1 with 4 process parameters and degree 2
+
+
 
 Outliers: 
 [discuss the CLD2 thresholding scheme and need for thresholding]
