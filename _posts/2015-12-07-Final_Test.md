@@ -1,9 +1,9 @@
 ---
 layout:     	post
-title:      Process-Structure Linkages in Simulated LENS-type Additive Manufacturing Microstructures: Final Post
+title:      Process-Structure Linkages in Simulated LENS-type Additive Manufacturing Microstructures Final Post
 date:       2015-12-01 18:30
 author:     	Andriy Dotsenko, Xinyi Gong
-tags:         result
+tags:        
 ---
 ::::Work in Progress::::
 ----------------
