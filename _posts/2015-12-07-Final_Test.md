@@ -138,4 +138,4 @@ Acknowledgements/References:
 
 Presnetation Slides
 -------------------
-![](https://www.slideshare.net/secret/wHAe73S6zv5UoQ)
+[Process-Structure Linkages in a LENS-type Additive Manufacturing System](https://www.slideshare.net/secret/wHAe73S6zv5UoQ)
