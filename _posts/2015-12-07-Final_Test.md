@@ -12,20 +12,19 @@ Process-Structure Linkages in Simulated LENS-type Additive Manufacturing Microst
 ========================================================================
 
 
-Introduction and Bacground
+Introduction
 ==========================
 
-The LENS additive manufacturing process creates fully-dense alloy components with process-dependent microstructure. In this project we investigate the morphology of the microstructure crystal grains and it's dependence on process parameters using a Materials Knowledge Systems (MKS) approach. A simulated dataset shared with us through Harvard's Dataverse was subjected to the MKS approach. The dataset's creator Theron Rogers of Sandia National Labs has been our collaborator and domain expert, guiding the direction of the project. More detail can be found [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/09/24/Intro_LENS/).
+The LENS additive manufacturing process creates fully-dense alloy components with process-dependent microstructure. In this project we investigate the morphology of the microstructure crystal grains and it's dependence on process parameters using a data science approach. A simulated dataset shared with us through Harvard's Dataverse was subjected to a data science approach. The dataset's creator Theron Rogers of Sandia National Labs has been our collaborator and domain expert, guiding the direction of the project. More detail can be found [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/09/24/Intro_LENS/).
 
 Motivation
 ===========
-
-The project is an effort to understand LENS fabricated materials as a function of LENS process parameters. The LENS process has a partial control over the physical properties. It creates metal/alloy deposits with a tightly controlled chemistry but not microstructure which also plays a large part in the material's mechanical properties. The Process-Structure linkage is a way to understand the LENS leverage over deposit microstructure. It is also the first step to a Process-Structure-Property linkage which allows rapid material engineering and discovery.  
+The LENS deposit physical properties are governed by the microstructure which is a function of the process parameters. We would like to be able to design the function and physical properties of the LENS-made components by using Process-Structure-Property Linkages. The focus of this project is to create Process-Structure Linkages. 
 
 Objective
 ==========
 
-The objective of this project was to extract Process-Structure linkages from the simulated dataset. The grain size- and shape-distribution was specified as an important structure metric. The general direction of the project became extraction of grain patterns with respect to simulation process parameters. Given a parameter combination and a microstructure the forward and inverse linkages were extracted.
+The objective of this project was to extract Process-Structure Linkages from the simulated dataset. The grain size- and shape-distribution was specified as an important structure metric. The general direction of the project became extraction of grain patterns with respect to simulation process parameters. The linkages map a parameter combination to a unique microstructure in PC-space.
 
 Approach and Workflow
 ======================
@@ -49,7 +48,7 @@ As received, the data in the dataset was organized in a folder tree, each branch
 
 The journey to extract the Process-Structure linkage is summarized in the worklfow diagram below:
 
-![Workflow](/MIC-LENS/img/Final_Post/Latest_Workflow.png)
+![Workflow](/MIC-LENS/img/Final_Post/new_workflow.png)
 **Fig.1.** Workflow
 
 In the Digital Representation step the data is processed and transformed into a computationally-convenient form, after which the microstructure is subjected to grain-boundary segmentation. The Spatial Correlations within the microstructure can be interpreted in different ways but we selected 2-point statistics and Chord-Length-Distributions (CLD) in this step. Details [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/09/29/Data_Process_GB_2Pt/) and [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/10/25/One_Kind_of_Statistics_Describing_the_Structures/) and [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/10/26/The_Weighted_Chord_Length_Distribution/). Both 2pt-statistics and CLDs are different statistical descriptions of microstructure. The 1799 microstructures are interpreted with a set of 1799 2-pt statistics and a set of 1799 CLDs. Before a linkage is built, the variance in each set is quantified and reduced in dimensionality using Principal Component Analysis (PCA). The PC space is truncated to a handful of PCs immensely reducing complexity yet capturing most of the variance. 
