@@ -9,7 +9,13 @@ This post will show you our trials on building an effective model to fit the fir
 
 Increasing Order of Polynomial Fit
 -------
-Thanks to Ahmet, we can effectively create multi-variance polynomial fit with linear regression using his matlab [function](https://github.com/ahmetcecen/MultiPolyRegress-MatlabCentral) as a very powerful tool. 
+Thanks to Ahmet, we can effectively create multi-variance polynomial fit with linear regression using his matlab [function](https://github.com/ahmetcecen/MultiPolyRegress-MatlabCentral) as a very powerful tool.
+
+To get a fit with reasonable mean average error(MAE) and R square, we decided to use all of our process variables. The following figures show goodness of fit for models using different number of terms and orders.
+
+
+Due to the discrete nature of our process variables, meaning for each variable we have 3 or 4 different values, we got rank deficiency in our model if we try to fit with up to 3rd power for every process variable. To refine the model, we will have to selectively add 3rd order terms to original 2nd order model. So by exhausting all the combinations for a 3rd order fit, a more modified model was created totally with 74 terms.
+
 
 
 
