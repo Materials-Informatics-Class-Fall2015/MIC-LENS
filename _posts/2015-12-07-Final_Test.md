@@ -93,30 +93,47 @@ Forward method was used to create a model of microstructures a function of the p
 ![CLD PCA](/MIC-LENS/img/Final_Post/Forward_PC1_model_full.png)
 **Fig.1.** Forward model for PC1 with 4 process parameters and degree 2
 
+Model Improvement
+-----------------
+Modeling the entire dataset for CLD structure interpretation should be done with some amount of truncation. The nature of a small subset of the structures makes them 'low-confidence' structures as explained [here](http://materials-informatics-class-fall2015.github.io/MIC-LENS/2015/10/25/CLD_probs/). The models were vastly improved after a truncation of the dataset to structured containing no more than 10% edge chords in the distribution.
 
+  ![CLD PCA Outliers](/MIC-LENS/img/Final_Post/10_percent.png)
+**Fig.1.** The histogram of the number of structures vs. the edge chord fraction with 10% threshold shown.
 
-Outliers: 
+The Removed structures are shown below in red and PCA redone on the 'high-confidence' dataset.
+
 [discuss the CLD2 thresholding scheme and need for thresholding]
   ![CLD PCA Outliers](/MIC-LENS/img/Final_Post/Outliers.png)
 **Fig.1.** Outliers in the CLD PCA space
-Model without outliers
 
+The improved model for PC1 is shown below, displaying good fit, low standard deviation and low mean average error.
+[discuss the CLD2 thresholding scheme and need for thresholding]
+  ![CLD PCA Outliers](/MIC-LENS/img/Final_Post/PC1_best.png)
+**Fig.1.** Outliers in the CLD PCA space
 
+The model selection was a comprehensive assessment of R^2 goodnes of fit, Standard deviation, mean average error, and leave one out cross validation CVR^2. Three model classes were defined described by their highest order terms, shown below with the best class shown in red. This class is the modified 3rd order polynomial models.
+[discuss the CLD2 thresholding scheme and need for thresholding]
+  ![CLD PCA Outliers](/MIC-LENS/img/fit.png)
+**Fig.1.** Error analysis among 3 classes of models
 
 Conclusions:
 ------------
-summary
+Using data science tools a data-driven model was developed for a LENS-type additive manufacturing system 
+
+Process-Structure Linkages were extracted between process parameters and final grain size distributions
+
 
 
 Future Work:
 ------------
-Future work may include the 2pt statistics PCA. The 2-point statistics showed promising results during preliminary tests. A subset of 72 structures was selected and PCA showed reasonable separation of microstructures as shown below.
 
-![72 structure PCA](/MIC-LENS/img/Final_Post/72_2pt_PCA.png)
-**Fig.1.** On the left, the PCs -1,-2, and -3 of a 72 structure subset showing separation. An accumulated variance plot is shown on the right. 
+ 1. Optimize the data-driven models by exploring other model types and regression types.
+ 2. Study the relationship of the truncation threshold on model integrity
+ 3. Future work may include the 2pt statistics PCA. The 2-point statistics showed promising results during preliminary tests. 
 
-Though the method seems to show promise it became impossible to carry out using our limited computational power. The PCA computations of the entire set required over 200GB of RAM while the most powerful nodes at our disposal were 128GB. Because we could not justify reducing the dataset to a computable subset we decided to pursue the non-memory-intensive CLD PCA while searching for a more powerful computing node for 2-pt statistics PCA.
+
 
 Acknowledgements/References:
 ----------------------------
-more stuff
+
+ - Dr. Surya Kalidindi Ahmet Cecen, Yuksel Yabansu, David Brough, David, Montes, Fred Hohman, Evdokia Popova, Theron Rogers
