@@ -9,7 +9,7 @@ This post will show you our trials on building an effective model to fit the fir
 
 Increasing Order of Polynomial Fit
 -------
-
+Thanks to Ahmet, we can effectively do with multi-variance polynomial fit with linear regression using his matlab [function](https://github.com/ahmetcecen/MultiPolyRegress-MatlabCentral) as a very powerful tool. 
 
 
 
